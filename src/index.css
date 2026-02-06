@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face{
+  font-family: 'Noto-Sans';
+  src: url("/src/assets/NotoSansGeorgian-VariableFont_wdth\,wght.ttf");
+  font-weight: 400;
+}
+
+
+
+@theme{
+  --font-noto-bold: "Noto-Sans"; 
+}
+
+
+body{
+  font-family: "Noto-Sans";
+}
